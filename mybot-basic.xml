@@ -1,0 +1,220 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Introduction -->
+<category> <pattern> HELLO </pattern>
+  <template>
+	<random>
+		<li>Hello!</li>
+		<li>Hello there</li>
+	</random>
+  </template> </category>
+
+<category> <pattern> HELLO * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+  
+ <category> <pattern> HELLO THERE </pattern>
+  <template>General Kenobi</template> </category>
+
+<category> <pattern> HI </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HI * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HOW ARE YOU </pattern>
+  <template>Situation normal, everything under control.</template></category>
+
+<category><pattern> I AM FINE </pattern>
+  <template>Perfect</template></category>
+
+<category><pattern> BYE </pattern>
+  <template>Goodbye</template></category>
+
+<category><pattern> GOODBYE </pattern>
+  <template><srai>Bye</srai></template></category>
+
+<category><pattern> EXIT </pattern>
+  <template><srai>Exiting</srai></template></category>
+
+<category> <pattern> THANKS </pattern>
+  <template>No Problem</template></category>
+
+<category> <pattern> THANK YOU </pattern>
+  <template><srai>you're welcome</srai></template></category>
+
+<category> <pattern> CHEERS </pattern>
+  <template>Cheers!</template></category>
+
+<category> <pattern> CHEERS * </pattern>
+  <template>Cheers star</template></category>
+
+<!-- general conflicts -->
+<category> <pattern> WHO WON THE GREAT WAR </pattern>
+	<template>The Triple Entente: France, The UK, Russia + allied nations</template></category>
+
+<category> <pattern> WHO WON THE FIRST WORLD WAR </pattern>
+	<template><srai>WHO WON THE GREAT WAR</srai></template></category>
+<category> <pattern> WHO WON THE 1ST WORLD WAR </pattern>
+	<template><srai>WHO WON THE GREAT WAR</srai></template></category>
+<category> <pattern> WHO WON THE WAR TO END ALL WARS </pattern>
+	<template><srai>WHO WON THE GREAT WAR</srai></template></category>
+<category> <pattern> WHO WON WORLD WAR ONE </pattern>
+	<template><srai>WHO WON THE GREAT WAR</srai></template></category>
+<category> <pattern> WHO WON WW1 </pattern>
+	<template><srai>WHO WON THE GREAT WAR</srai></template></category>
+<category> <pattern> WHO WON WWI </pattern>
+	<template><srai>WHO WON THE GREAT WAR</srai></template></category>
+
+
+
+<category> <pattern> WHEN WAS THE GREAT WAR </pattern>
+	<template>The Great War was fought from 1914 to 1919</template></category>
+	
+<category> <pattern> WHEN WAS THE FIRST WORLD WAR </pattern>
+	<template><srai>WHEN WAS THE GREAT WAR</srai></template></category>
+<category> <pattern> WHEN WAS THE 1ST WORLD WAR </pattern>
+	<template><srai>WHEN WAS THE GREAT WAR</srai></template></category>
+<category> <pattern> WHEN WAS THE WAR TO END ALL WARS </pattern>
+	<template><srai>WHEN WAS THE GREAT WAR</srai></template></category>
+<category> <pattern> WHEN WAS WORLD WAR ONE </pattern>
+	<template><srai>WHEN WAS THE GREAT WAR</srai></template></category>
+<category> <pattern> WHEN WAS WW1 </pattern>
+	<template><srai>WHEN WAS THE GREAT WAR</srai></template></category>
+<category> <pattern> WHEN WAS WWI </pattern>
+	<template><srai>WHEN WAS THE GREAT WAR</srai></template></category>
+
+
+
+<category> <pattern> WHEN WAS THE SECOND WORLD WAR </pattern>
+	<template>The Second World War was fought from 1939 to 1945</template></category>
+	
+<category> <pattern> WHEN WAS THE 2ND WORLD WAR </pattern>
+	<template><srai>WHEN WAS THE SECOND WORLD WAR</srai></template></category>
+<category> <pattern> WHEN WAS WORLD WAR TWO </pattern>
+	<template><srai>WHEN WAS THE SECOND WORLD WAR</srai></template></category>
+<category> <pattern> WHEN WAS WW2 </pattern>
+	<template><srai>WHEN WAS THE SECOND WORLD WAR</srai></template></category>
+<category> <pattern> WHEN WAS WWII </pattern>
+	<template><srai>WHEN WAS THE SECOND WORLD WAR</srai></template></category>		
+	
+	
+	
+<category> <pattern> WHO WON THE SECOND WORLD WAR </pattern>
+	<template>The Allied Powers: France, The United Kingdom, The Soviet Union, The United States + allied nations</template></category>
+
+<category> <pattern> WHO WON WWII </pattern>
+	<template><srai>WHO WON THE SECOND WORLD WAR</srai></template></category>
+<category> <pattern> WHO WON WW2 </pattern>
+	<template><srai>WHO WON THE SECOND WORLD WAR</srai></template></category>
+<category> <pattern> WHO WON WORLD WAR TWO </pattern>
+	<template><srai>WHO WON THE SECOND WORLD WAR</srai></template></category>
+<category> <pattern> WHO WON THE 2ND WORLD WAR </pattern>
+	<template><srai>WHO WON THE SECOND WORLD WAR</srai></template></category>
+	
+	
+<category> <pattern> WHO LOST THE SECOND WORLD WAR </pattern>
+	<template>The Axis Powers: Germany, Italy, Japan + allied nations</template></category>
+
+<category> <pattern> WHO LOST WWII </pattern>
+	<template><srai>WHO LOST THE SECOND WORLD WAR</srai></template></category>
+<category> <pattern> WHO LOST WW2 </pattern>
+	<template><srai>WHO LOST THE SECOND WORLD WAR</srai></template></category>
+<category> <pattern> WHO LOST WORLD WAR TWO </pattern>
+	<template><srai>WHO LOST THE SECOND WORLD WAR</srai></template></category>
+<category> <pattern> WHO LOST THE 2ND WORLD WAR </pattern>
+	<template><srai>WHO LOST THE SECOND WORLD WAR</srai></template></category>
+
+
+<category> <pattern> PICK AN ALLIED POWERS LEADER </pattern>
+	<template>
+		<random>
+			<li>Joseph Stalin</li>
+			<li>Franklin Roosevelt</li>
+			<li>Winston Churchill</li>
+		</random>
+	</template> </category>
+
+	
+<category> <pattern> WHEN WAS THE KOREAN WAR </pattern>
+	<template>The Korean War was fought from 1950 to 1953</template></category>
+	
+<category> <pattern> WHEN WAS THE FATHERLAND LIBERATION WAR </pattern>
+	<template><srai>WHEN WAS THE KOREAN WAR</srai></template></category>
+	
+	
+	
+<category> <pattern> WHO WON THE KOREAN WAR </pattern>
+	<template>Neither side won the korean war, only a temporary armistice was signed which has lasted until this day</template></category>
+	
+<category> <pattern> WHO WON THE FATHERLAND LIBERATION WAR </pattern>
+	<template><srai>WHO WON THE KOREAN WAR</srai></template></category>
+	
+	
+	
+<category> <pattern> WHEN WAS THE VIETNAM WAR </pattern>
+	<template>The Vietnam War was fought from 1955 to 1975</template></category>
+	
+<category> <pattern> WHEN WAS THE SECOND INDOCHINA WAR </pattern>
+	<template><srai>WHEN WAS THE VIETNAM WAR</srai></template></category>
+<category> <pattern> WHEN WAS THE 2ND INDOCHINA WAR </pattern>
+	<template><srai>WHEN WAS THE VIETNAM WAR</srai></template></category>
+<category> <pattern> WHEN WAS THE RESISTANCE WAR AGAINST AMERICA </pattern>
+	<template><srai>WHEN WAS THE VIETNAM WAR</srai></template></category>
+
+	
+
+<category> <pattern> WHO WON THE VIETNAM WAR </pattern>
+	<template>North Vietnam</template></category>
+	
+<category> <pattern> WHO WON THE SECOND INDOCHINA WAR </pattern>
+	<template><srai>WHO WON THE VIETNAM WAR</srai></template></category>
+<category> <pattern> WHO WON THE 2ND INDOCHINA WAR </pattern>
+	<template><srai>WHO WON THE VIETNAM WAR</srai></template></category>
+<category> <pattern> WHO WON THE RESISTANCE WAR AGAINST AMERICA </pattern>
+	<template><srai>WHO WON THE VIETNAM WAR</srai></template></category>
+
+<category> <pattern> _ SECOND WORLD WAR START *</pattern>
+	<template>#2$<star index = "2"/></template></category>
+<category> <pattern> SECOND WORLD WAR START *</pattern>
+	<template>#2$<star index = "2"/></template></category> 
+<category> <pattern> _ SECOND WORLD WAR START</pattern>
+	<template>#2$<star index = "2"/></template></category>
+	
+<category> <pattern> _ GERMANY INVADE *</pattern>
+	<template>#2$<star index = "2"/></template></category>
+<category> <pattern> GERMANY INVADE *</pattern>
+	<template>#2$<star index = "2"/></template></category> 
+<category> <pattern> _ GERMANY INVADE</pattern>
+	<template>#2$<star index = "2"/></template></category>
+
+<category> <pattern> _ OCCUPIED BERLIN *</pattern>
+	<template>#2$<star index = "2"/></template></category>
+<category> <pattern> OCCUPIED BERLIN *</pattern>
+	<template>#2$<star index = "2"/></template></category> 
+<category> <pattern> _ OCCUPIED BERLIN</pattern>
+	<template>#2$<star index = "2"/></template></category>
+
+<category> <pattern> _ TANKS FIRST *</pattern>
+	<template>#2$<star index = "2"/></template></category>
+<category> <pattern> TANKS FIRST *</pattern>
+	<template>#2$<star index = "2"/></template></category> 
+<category> <pattern> _ TANKS FIRST</pattern>
+	<template>#2$<star index = "2"/></template></category>
+	
+<category> <pattern> THE BATTLE OF * TOOK PLACE IN * </pattern>
+ <template>#4$<star index="1"/>$<star index="2"/></template></category>
+<category> <pattern> DID THE BATTLE OF * TAKE PLACE IN * </pattern>
+ <template>#5$<star index="1"/>$<star index="2"/></template></category>
+<category> <pattern> ARE ALL * IN * </pattern>
+ <template>#6$<star index="1"/>$<star index="2"/></template></category>
+<category> <pattern> WHICH BATTLES TOOK PLACE IN * </pattern>
+ <template>#7$<star index="1"/></template></category>
+
+<category> <pattern> I WANT TO PLAY A GAME </pattern>
+ <template>#8$<star index="1"/>$<star index="2"/></template></category>
+
+<!-- Default reaction -->
+<category><pattern> * </pattern>
+  <template>#99$<star index="1"/></template></category>
+
+</aiml>

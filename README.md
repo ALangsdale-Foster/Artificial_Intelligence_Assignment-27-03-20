@@ -37,10 +37,8 @@ this document to two to three pages. For the final specification, update your pl
 document. The final specification should also a reflective document (about one page),
 which analyses what went well or not so well, puts the work in context, and mentions
 some ideas for what could be done if there was more time.
+
 Chatbot with rule-based and similarity-based component
-ISYS30221: Artificial Intelligence
-Coursework Specification
-3
 This submission should consist of one Python file that implements the chat bot, one AIML
 file that implements the rules, and one file in a suitable format (such as plain text or CSV)
 that has the question-answer pairs. If you wish, you can create more files than that. You
@@ -51,6 +49,7 @@ style and how many features you implement. The similarity-based component should
 based on the bag-of-words model, tf/idf, and cosine similarity. The AIML file could be as
 compact as 80 lines but will probably somewhat longer, maybe even significantly longer
 depending on the domain you intend your chatbot to be for.
+
 Conversation log
 For each conversation log, record an actual conversation between you (and/or your peers)
 and the chatbot that demonstrates the implemented features. Annotate it with comments
@@ -77,6 +76,7 @@ recommended. It is also recommended that you follow closely one of the tutorials
 on the keras or tensorflow websites (with proper referencing). One key challenge is to
 make it so that the trained model can be saved and later used for classification when the
 chatbot is running.
+
 Toy world reasoning system
 Use the provided NLTK based code that translates natural language sentences into firstorder logic, and does some reasoning based on its knowledge. Adapt it to your chosen
 domain by adding new objects and relations (and possibly removing old ones). Connect it
@@ -85,18 +85,17 @@ knowledge from user input to its knowledge base, and does some reasoning, for ex
 as response to a user question. Note that this is only a toy world related system, in other
 words, the number of objects and relations can remain small, there should be at least as
 many as in the example provided, but not normally more than twice those numbers.
+
 Sequence to sequence network extension
 Build a sequence to sequence network, and use it in some way to generate chatbot
 responses (for example, if the other modules cannot produce detect any pattern in the
 input. Follow the provided tutorials to build the network, and train it with one of the data
 sets of conversations that you will be pointed to. Make sure that the trained network is
 saved, and loaded again when the chatbot runs. Note that as there is only a limited set of 
-ISYS30221: Artificial Intelligence
-Coursework Specification
-4
 conversation data sets available for training, some overlap with other students’ work is
 unavoidable, but you must still make your own decisions about the architecture and
 parameters of the neural network and training procedure.
+
 Reinforcement learning extension
 Use a reinforcement learning algorithm of your choice (either based on deep learning, or
 on evolutionary algorithms) to train an agent that then becomes part of your chatbot.
